@@ -1,0 +1,387 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>个人主页</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+	 	<!---strat-slider---->
+	    <link rel="stylesheet" type="text/css" href="css/slider.css" />
+		<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+		<script type="text/javascript" src="js/jquery.cslider.js"></script>
+			<script type="text/javascript">
+				$(function() {
+					$('#da-slider').cslider({
+						autoplay	: true,
+						bgincrement	: 450
+					});
+
+				});
+			</script>
+		<!---//strat-slider---->
+		 <!-- scroll -->
+		 <script type="text/javascript">
+			$(document).ready(function() {
+
+				var defaults = {
+		  			containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear'
+		 		};
+
+
+				$().UItoTop({ easingType: 'easeOutQuart' });
+
+			});
+		</script>
+		 <!-- //scroll -->
+
+</head>
+<body>
+	<!-- start slider -->
+<div class="slider_bg">
+			<!-- start header -->
+	<div class="wrap">
+			<div class="header">
+				<div class="logo">
+					<!-- <a href="index.html"><img src="images/logo.png" alt=""/></a> -->
+				</div>
+		<!-- start top-nav-->
+		<div class="h_right">
+			<ul class="menu">
+				<li class="active"><a  href="#home">个人主页</a></li>
+				<li><a href="#services" class="scroll">技能掌握</a></li>
+				<li><a href="#portfolio" class="scroll">作品展示</a></li>
+				<li><a href="#about" class="scroll">工作经验</a></li>
+				<li class="last"><a href="#contact"  class="scroll">联系方式</a></li>
+			</ul>
+			<!-- start smart_nav * -->
+	        <nav class="nav">
+	            <ul class="nav-list">
+	                <li class="nav-item"><a  href="#home">个人主页</a></li>
+	                <li class="nav-item"><a href="#services" class="scroll">技能掌握</a></li>
+	                <li class="nav-item"><a href="#portfolio" class="scroll">作品展示</a></li>
+	                <li class="nav-item"><a href="#about" class="scroll">工作经验</a></li>
+	                <li class="nav-item"><a href="#contact"  class="scroll">联系方式</a></li>
+	                <div class="clear"></div>
+	            </ul>
+	        </nav>
+	        <script type="text/javascript" src="js/responsive.menu.js"></script>
+			<!-- end smart_nav * -->
+		</div>
+		<div class="clear"></div>
+
+			</div>
+			</div>
+			<!---//End-header--->
+<!-- start main -->
+				<!---start-da-slider----->
+				<div id="da-slider" class="da-slider">
+				<div class="da-slide">
+					<p>Welcome To My Website!</p>
+					<h2>IT'S NICE TO MEET YOU</h2>
+					<p class="a"><a href="#">Xing Jia</a></p>
+				</div>
+				<div class="da-slide">
+					<p>Welcome To My Website!</p>
+					<h2>IT'S NICE TO MEET YOU</h2>
+					<p class="a"><a href="#">Xing Jia</a></p>
+				</div>
+				<div class="da-slide">
+					<p>Welcome To My Website!</p>
+					<h2>IT'S NICE TO MEET YOU</h2>
+					<p class="a"><a href="#">Xing Jia</a></p>
+				</div>
+				<div class="da-slide">
+					<p>Welcome To My Website!</p>
+					<h2>IT'S NICE TO MEET YOU</h2>
+					<p class="a"><a href="#">Xing Jia</a></p>
+				</div>
+				<nav class="da-arrows">
+					<span class="da-arrows-prev"></span>
+					<span class="da-arrows-next"></span>
+				</nav>
+			</div>
+ 			<!---//End-da-slider----->
+ 		</div>
+		  <div class="services" id="services">
+		  	<div class="wrap">
+		  		<h3>技能掌握</h3>
+		  		<p>The condition of my skill to master.</p>
+				<div class="col_1_of_3 span_1_of_3">
+					<img src="images/sk1.png" alt=""/>
+					<h5><a href="#">CSS</a></h5>
+				</div>
+				<div class="col_1_of_3 span_1_of_3">
+					<img src="images/sk1.png" alt=""/>
+					<h5><a href="#">HTML</a></h5>
+				</div>
+				<div class="col_1_of_3 span_1_of_3">
+					<img src="images/sk2.png" alt=""/>
+					<h5><a href="#">JAVASCRIPT</a></h5>
+				</div>
+				<div class="col_1_of_3 span_1_of_3 J1">
+					<img src="images/sk2.png" alt=""/>
+					<h5><a href="#">JQUERY</a></h5>
+				</div>
+				<div class="col_1_of_3 span_1_of_3 J1">
+					<img src="images/sk3.png" alt=""/>
+					<h5><a href="#">AJAX</a></h5>
+				</div>
+				<div class="col_1_of_3 span_1_of_3 J1">
+					<img src="images/sk3.png" alt=""/>
+					<h5><a href="#">PHOTO SHOP</a></h5>
+				</div>
+				 <div class="clear"></div>
+   		   </div>
+   		 </div>
+ 		<div class="portfolio" id="portfolio">
+		  	<div class="wrap">
+		  		<h3>作品展示</h3>
+		  		<p>Shows in this wonderful work.</p>
+			<div class="col_1_of_3 span_1_of_3">
+					  <div class="view view-fourth">
+                        <!-- <img src="images/port1.jpg"> -->
+												<img src="images/hhh.png" alt="">
+	                    <div class="mask">
+	                        <h2>Ebony</h2>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+	                        <a href="#" class="info">Read More</a>
+	                    </div>
+                	</div>
+					<h5><a href="#">京东商城</a></h5>
+					<!-- <p>Branding</p> -->
+				</div>
+				<div class="col_1_of_3 span_1_of_3">
+					 <div class="view view-fourth">
+                        <!-- <img src="images/port2.jpg"> -->
+												<img src="images/s1.png" alt="">
+	                    <div class="mask">
+	                        <h2>Stationary</h2>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+	                        <a href="#" class="info">Read More</a>
+	                    </div>
+                	</div>
+					<h5><a href="#">天猫</a></h5>
+					<!-- <p>Print Design</p> -->
+				</div>
+				<div class="col_1_of_3 span_1_of_3">
+					 <div class="view view-fourth">
+                        <!-- <img src="images/port3.jpg"> -->
+												<img src="images/yyy.png" alt="" />
+	                    <div class="mask">
+	                        <h2>Poster</h2>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+	                        <a href="#" class="info">Read More</a>
+	                    </div>
+                	</div>
+					<h5><a href="#">我的银泰</a></h5>
+					<!-- <p>Print Design</p> -->
+				</div>
+			  <div class="col_1_of_3 span_1_of_3">
+					 <div class="view view-fourth">
+                        <img src="images/port4.jpg">
+	                    <div class="mask">
+	                        <h2>Record</h2>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+	                        <a href="#" class="info">Read More</a>
+	                    </div>
+                	</div>
+					<h5><a href="#">qq音乐</a></h5>
+					<!-- <p>Product ck-Up</p> -->
+				</div>
+				<div class="col_1_of_3 span_1_of_3">
+					  <div class="view view-fourth">
+                        <img src="images/todo.png">
+	                    <div class="mask">
+	                        <h2>Design</h2>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+	                        <a href="#" class="info">Read More</a>
+	                    </div>
+                	</div>
+					<h5><a href="#">todos</a></h5>
+					<!-- <p>Web Design</p> -->
+				</div>
+				<div class="col_1_of_3 span_1_of_3">
+					 <div class="view view-fourth">
+                        <!-- <img src="images/port6.jpg"> -->
+												<img src="images/n1.png" alt="">
+	                    <div class="mask">
+	                        <h2>Branding</h2>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+	                        <a href="#" class="info">Read More</a>
+	                    </div>
+                	</div>
+					<h5><a href="#">今日头条</a></h5>
+					<!-- <p>Branding</p> -->
+				</div>
+			<div class="clear"></div>
+			</div>
+   		 </div>
+   		 <!---start-about---->
+		  <div class="about" id="about">
+		  	<div class="wrap">
+		  		<h3>工作经验</h3>
+		  		<p class="a">I work at different stages of experience</p>
+				<!---start-about-time-line---->
+				<div class="about-time-line">
+					<li>
+							<div class="cbp_tmicon img1"> </div>
+							<div class="cbp_tmlabel">
+								<h2>Icon</h2>
+								<h2>Beauty is always a joy</h2>
+								<p>Beautiful icon not attract people's attention,at the same time,give a person with happy mood and motivation</p>
+							</div>
+					</li>
+					<li>
+							<div class="cbp_tmicon1 img2"> </div>
+							<div class="cbp_tmlabel cbp_tmlabel1">
+								<h2>H5 canvas</h2>
+								<h2>Clock record the past years</h2>
+								<p>By doing the clcok to practice,enhance their ability todo work.</p>
+							</div>
+					</li><br />
+					<li>
+							<div class="cbp_tmicon2 img3"> </div>
+							<div class="cbp_tmlabel">
+								<h2>Snake</h2>
+								<h2>In the game world</h2>
+								<p>Snake is a recreational little game, the operation is simple and novel ideas.</p>
+							</div>
+					</li>
+					<li>
+							<div class="cbp_tmicon3 img4"> </div>
+							<div class="cbp_tmlabel cbp_tmlabel1">
+								<h2>Dangdang</h2>
+								<h2>Read makes people smarter</h2>
+								<p>Knowledge is a kind of power,read more books read good books.</p>
+							</div>
+					</li>
+					<li>
+							<div class="cbp_tmicon4 img5"> </div>
+					</li>
+					<div class="clear"> </div>
+   		   </div>
+   		 </div>
+   		</div>
+ 			<!---//end-about---->
+           <!----start-team-members---->
+				<div class="team-members">
+					<div class="wrap">
+						<div class="tm-head">
+							<h3>这样的我</h3>
+							<p>It is good to fall in love with them</p>
+						</div>
+						<div class="tm-head-grids">
+							<div class="tm-head-grid">
+								<!-- <img src="images/team-member1.jpg" alt="" /> -->
+								<img src="images/lu.png" alt="">
+								<h4>Photo</h4>
+								<h5>Record every wonderful moment</h5>
+							</div>
+							<div class="tm-head-grid">
+								<img src="images/meng.png" alt="" />
+								<h4>Dream</h4>
+								<h5>With the dream take off</h5>
+							</div>
+							<div class="tm-head-grid">
+								<img src="images/yin.png" alt="" />
+								<h4>Music</h4>
+								<h5>Wash the inner restlessness</h5>
+							</div>
+							<div class="clear"> </div>
+						</div>
+						<p class="team-info">Everyone has a dream,let us with a dream to take off,each section of the road gove us a feeling,let us become more mature,everone leave a story ,I'm still on
+						the road.</p>
+					</div>
+				</div>
+				<!----//End-team-members---->
+				<!---strat-image-cursuals---->
+                  <div class="t-clients">
+                  	<div class="wrap">
+								<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+								<!---End-image-cursuals---->
+								<script type="text/javascript">
+								$(window).load(function() {
+								    $(".flexiselDemo3").flexisel({
+								        visibleItems: 5,
+								        animationSpeed: 1000,
+								        autoPlay: true,
+								        autoPlaySpeed: 3000,
+								        pauseOnHover: true,
+								        enableResponsiveBreakpoints: true,
+								        responsiveBreakpoints: {
+								            portrait: {
+								                changePoint:480,
+								                visibleItems: 1
+								            },
+								            landscape: {
+								                changePoint:640,
+								                visibleItems: 2
+								            },
+								            tablet: {
+								                changePoint:768,
+								                visibleItems: 3
+								            }
+								        }
+								    });
+								});
+								</script>
+						<!---->
+				  <!---->
+				  </div>
+			</div>
+             <div class="contact" id="contact">
+		  	<div class="wrap">
+		  		<h3>联系方式</h3>
+		  		<p class="a">Contact me.</p>
+				<div class="form">
+				     <div class="form-text">
+					    <input type="text" class="textbox" value="Your Name*" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Name';}">
+						<input type="text" class="textbox" value="Your E-mail*" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'E-mail';}">
+						<input name="Website" type="text" class="Subject" value="Website" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Website';}">
+					</div>
+						 <textarea placeholder="Your Message*"></textarea>
+						 <div class="clear"> </div>
+						 <input type="submit" value="SEND MESSAGE">
+				 </div>
+   		   </div>
+   		 </div>
+         <!----start-bottom-footer---->
+				<div class="bottom-footer">
+					<div class="wrap">
+						<div class="bottom-footer-left">
+							<!-- <p>&#169; Copyright 2014 Template. <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p> -->
+						</div>
+						<div class="bottom-footer-center">
+							<ul class="bottom-social-icons">
+								<li><a class="bottom-twitter" href="#"> </a></li>
+								<li><a class="bottom-facebook" href="#"> </a></li>
+								<li><a class="bottom-pin" href="#"> </a></li>
+								<!-- <li><a class="bottom-google" href="#"> </a></li> -->
+								<div class="clear"> </div>
+							</ul>
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<!----//End-bottom-footer---->
+ <!-- scroll_top_btn -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+
+		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+
+</body>
+</html>
